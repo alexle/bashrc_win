@@ -1,6 +1,7 @@
 .atom
 .bash_history
 _viminfo
+.viminfo
 .ssh
 AppData
 Contacts
