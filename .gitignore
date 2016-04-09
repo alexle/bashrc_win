@@ -1,8 +1,13 @@
 .atom
+.appcfg*
 .bash_history
+.lesshst
+.minttyrc
 _viminfo
 .viminfo
 .ssh
+_netrc
+3D Objects
 AppData
 Contacts
 Desktop
@@ -10,6 +15,7 @@ Documents
 Downloads
 Dropbox
 Favorites
+Google
 Links
 Music
 OneDrive
@@ -17,4 +23,5 @@ Pictures
 Saved Games
 Searches
 Videos
+vimfiles
 NTUSER*

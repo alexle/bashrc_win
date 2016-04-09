@@ -56,6 +56,7 @@ alias gk='git checkout'
 alias gra='git remote add origin'
 alias grm='git rm'
 alias gre='git reset --hard HEAD'
+alias grem='git reset --hard origin/master'
 alias gpum='git pull origin master'
 alias gahead='git push origin master:master'
 
