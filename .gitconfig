@@ -1,5 +1,7 @@
 [user]
-name = Alex Le
-email = alex.csm@gmail.com
+   name = Alex Le
+   email = alex.csm@gmail.com
 [push]
-default = simple
+   default = simple
+[core]
+	autocrlf = true
