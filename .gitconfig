@@ -1,7 +1,13 @@
 [user]
    name = Alex Le
    email = alex.csm@gmail.com
+   username = alexle
 [push]
    default = simple
 [core]
-	autocrlf = true
+   autocrlf = true
+	safecrlf = false
+[github]
+   user = alexle
+[credential]
+   helper = wincred
