@@ -40,24 +40,24 @@ alias vi='start gvim'
 alias c='cd c:'
 
 alias gcl='git clone'
-alias ga='git add'
+alias ga='git add -A && git commit -am'
 alias gc='git commit -m'
 alias gca='git commit -am'
 alias gs='git status'
 alias gdc='git diff --cached'
 alias gd='git diff'
 alias gp='git push'
-alias gpu='git pull'
+alias gpu='git pull --rebase'
+alias gpum='git pull origin master'
 alias gl='git log'
 alias gb='git branch'
 alias gbd='git branch -d'
-alias gbk='git checkout -b'
+alias gkb='git checkout -b'
 alias gk='git checkout'
 alias gra='git remote add origin'
 alias grm='git rm'
 alias gre='git reset --hard HEAD'
 alias grem='git reset --hard origin/master'
-alias gpum='git pull origin master'
 alias gahead='git push origin master:master'
 alias glog='git log --author="Alex" --after={1.week.ago} --pretty=oneline --abbrev-commit'
 
@@ -70,7 +70,7 @@ alias glog='git log --author="Alex" --after={1.week.ago} --pretty=oneline --abbr
 # gra git@github.com:alexle/Project.git
 # git push -u origin master
 
-# gca "added feature x"  # git commit -m "added feature x"
+# gca "added feature x"          // git commit -m "added feature x"
 
 # git checkout my_branch         // Just to make sure I'm on the right branch
 # git pull origin master         // Read: pull the changes from origin/master into my current local branch my_branch
