@@ -33,7 +33,7 @@ alias fi='find ./ -iname'
 alias alex='cd C:/Users/Alex/Dropbox/alexle.github.com'
 alias downloads='cd C:/Users/Alex/Downloads'
 alias drop='cd C:/Users/Alex/Dropbox'
-alias serv='cd C:/Users/Alex/Dropbox/alexle.github.com;./chisel.py -s'
+alias serv='cd C:/Users/Alex/Dropbox/alexle.github.com; python chisel.py -s'
 alias doc='cd /cygdrive/c/Documents\ and\ Settings/404368/My\ Documents'
 
 alias vi='start gvim'
